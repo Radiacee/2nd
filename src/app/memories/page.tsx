@@ -12,6 +12,42 @@ interface Memory {
   color: string
 }
 
+// Sample memories to start with - moved outside component to avoid dependency issues
+const sampleMemories: Memory[] = [
+  {
+    id: 1,
+    title: "Our First Video Call",
+    description: "The moment I first saw your beautiful smile through the screen. My heart skipped a beat and I knew you were special.",
+    date: "2025-06-21",
+    emoji: "📞",
+    color: "from-pink-400 to-purple-400"
+  },
+  {
+    id: 2,
+    title: "First 'I Love You'",
+    description: "When we first said those three magical words. The world felt complete and full of possibilities.",
+    date: "2025-07-05",
+    emoji: "💕",
+    color: "from-purple-400 to-pink-400"
+  },
+  {
+    id: 3,
+    title: "Our 1st Month Together",
+    description: "Celebrating our first milestone together. 30 days of happiness, laughter, and growing love.",
+    date: "2025-07-21",
+    emoji: "🎉",
+    color: "from-red-400 to-pink-400"
+  },
+  {
+    id: 4,
+    title: "Today - Our 2nd Month!",
+    description: "Two amazing months of being together. Every day has been a gift, and I can't wait for many more months ahead.",
+    date: "2025-08-21",
+    emoji: "🌟",
+    color: "from-pink-400 to-red-400"
+  }
+]
+
 export default function MemoriesPage() {
   const [memories, setMemories] = useState<Memory[]>([])
   const [showAddForm, setShowAddForm] = useState(false)
@@ -31,42 +67,6 @@ export default function MemoriesPage() {
     'from-pink-400 to-red-400',
     'from-rose-400 to-pink-400',
     'from-pink-400 to-rose-400'
-  ]
-
-  // Sample memories to start with
-  const sampleMemories: Memory[] = [
-    {
-      id: 1,
-      title: "Our First Video Call",
-      description: "The moment I first saw your beautiful smile through the screen. My heart skipped a beat and I knew you were special.",
-      date: "2025-06-21",
-      emoji: "📞",
-      color: "from-pink-400 to-purple-400"
-    },
-    {
-      id: 2,
-      title: "First 'I Love You'",
-      description: "When we first said those three magical words. The world felt complete and full of possibilities.",
-      date: "2025-07-05",
-      emoji: "💕",
-      color: "from-purple-400 to-pink-400"
-    },
-    {
-      id: 3,
-      title: "Our 1st Month Together",
-      description: "Celebrating our first milestone together. 30 days of happiness, laughter, and growing love.",
-      date: "2025-07-21",
-      emoji: "🎉",
-      color: "from-red-400 to-pink-400"
-    },
-    {
-      id: 4,
-      title: "Today - Our 2nd Month!",
-      description: "Two amazing months of being together. Every day has been a gift, and I can't wait for many more months ahead.",
-      date: "2025-08-21",
-      emoji: "🌟",
-      color: "from-pink-400 to-red-400"
-    }
   ]
 
   useEffect(() => {

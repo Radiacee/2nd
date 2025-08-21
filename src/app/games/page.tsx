@@ -104,7 +104,7 @@ export default function GamesPage() {
     if (currentGame === 'memory' && memoryCards.length === 0) {
       initializeMemoryGame()
     }
-  }, [currentGame])
+  }, [currentGame, memoryCards.length])
 
   if (currentGame === 'menu') {
     return (

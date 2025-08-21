@@ -3,16 +3,16 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
+const loveMessages = [
+  "Two months of amazing memories together 💕",
+  "Distance means nothing when you mean everything ✨",
+  "Every day with you is a celebration 🎉",
+  "Our love grows stronger with each passing day 💖"
+]
+
 export default function HomePage() {
   const [hearts, setHearts] = useState<number[]>([])
   const [currentMessage, setCurrentMessage] = useState(0)
-  
-  const loveMessages = [
-    "Two months of amazing memories together 💕",
-    "Distance means nothing when you mean everything ✨",
-    "Every day with you is a celebration 🎉",
-    "Our love grows stronger with each passing day 💖"
-  ]
 
   useEffect(() => {
     const interval = setInterval(() => {

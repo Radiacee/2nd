@@ -1,20 +1,75 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-87a17e4854702ab4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-01c481785f268126.js",
+      "static/chunks/main-app-43b7a4785a385039.js",
+      "static/chunks/app/_not-found/page-c99b8e568798fb31.js"
     ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/layout": [
+      "static/chunks/webpack-87a17e4854702ab4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-01c481785f268126.js",
+      "static/chunks/main-app-43b7a4785a385039.js",
+      "static/css/964b538da60f654c.css",
+      "static/chunks/app/layout-229ca3ae70692ae6.js"
+    ],
+    "/calculator/page": [
+      "static/chunks/webpack-87a17e4854702ab4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-01c481785f268126.js",
+      "static/chunks/main-app-43b7a4785a385039.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/calculator/page-8c7ae91e2cbfae29.js"
+    ],
+    "/games/page": [
+      "static/chunks/webpack-87a17e4854702ab4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-01c481785f268126.js",
+      "static/chunks/main-app-43b7a4785a385039.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/games/page-853db86543fc2667.js"
     ],
     "/countdown/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/countdown/page.js"
+      "static/chunks/webpack-87a17e4854702ab4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-01c481785f268126.js",
+      "static/chunks/main-app-43b7a4785a385039.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/countdown/page-eb33f7d0df8b99e3.js"
+    ],
+    "/memories/page": [
+      "static/chunks/webpack-87a17e4854702ab4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-01c481785f268126.js",
+      "static/chunks/main-app-43b7a4785a385039.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/memories/page-a866bd639019f363.js"
+    ],
+    "/messages/page": [
+      "static/chunks/webpack-87a17e4854702ab4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-01c481785f268126.js",
+      "static/chunks/main-app-43b7a4785a385039.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/messages/page-a342251fcb68ce97.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-87a17e4854702ab4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-01c481785f268126.js",
+      "static/chunks/main-app-43b7a4785a385039.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/page-2e92243be9476b49.js"
+    ],
+    "/quiz/page": [
+      "static/chunks/webpack-87a17e4854702ab4.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-01c481785f268126.js",
+      "static/chunks/main-app-43b7a4785a385039.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/app/quiz/page-46767048cc5a068f.js"
     ]
   }
 }
