@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-love-light to-pink-100 min-h-screen;
+  }
+}
+
+@layer components {
+  .heart-button {
+    @apply bg-love-pink hover:bg-love-purple text-white font-semibold py-3 px-6 rounded-full shadow-lg transform transition duration-200 hover:scale-105 hover:shadow-xl;
+  }
+  
+  .love-card {
+    @apply bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl p-6 border border-pink-100;
+  }
+  
+  .floating-heart {
+    animation: float 3s ease-in-out infinite;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.sparkle {
+  animation: sparkle 2s linear infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1) rotate(180deg); }
+}
